@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://10.21.64.29:8761/eureka/
     
 zipkin:
-  baseUrl: http://localhost:9411/
+  baseUrl: http://10.21.64.29:9411/
