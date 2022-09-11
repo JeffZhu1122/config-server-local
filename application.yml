@@ -7,3 +7,6 @@ eureka:
     
 zipkin:
   baseUrl: http://localhost:9411/
+
+active-mq:
+  broker-url: tcp://localhost:61616
