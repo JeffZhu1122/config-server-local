@@ -5,8 +5,9 @@ eureka:
     service-url:
       defaultZone: http://10.21.64.207:8761/eureka/
     
-zipkin:
-  baseUrl: http://10.21.64.207:9411/
+spring:
+  zipkin:
+    base-url: http://10.21.64.207:9411/
 
 active-mq:
   broker-url: tcp://10.21.64.207:61616
