@@ -3,8 +3,8 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka/
-    
+      defaultZone: http://dev-cetcfg.combined.energy.aws:8762/eureka/
+
 spring:
   zipkin:
-    base-url: http://127.0.0.1:9411/
+    base-url: http://dev-cetcfg.combined.energy.aws:9412/
